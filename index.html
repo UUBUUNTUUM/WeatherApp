@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>WeatherApp</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="header__inner container">
+				<a class="header__logo logo" href="/">
+					<img class="logo__image" src="./images/logo.svg" alt="Logo WeatherApp" width="192" height="48">
+				</a>
+				<div id="inputWrapper" class="search-box">
+
+					<input class="search-txt" id="input" type="search" placeholder="Поиск по городу">
+
+					<button id="search-button" class="search-button" type="button">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#545454" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M20.9999 21L16.6499 16.65" stroke="#545454" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</button>
+						
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="container">
+				<div class="section__body">
+					<div class="weather">
+
+						<div class="weather__info-day">
+
+							<div class="weather__data-time-city">
+								<h3 class="weather__title">Москва</h3>
+								<p class="weather__data">
+									<time>Cуббота</time>, 
+									<time>06 января</time>
+								</p>
+								<p class="weather__time">
+									<time>11:29</time>
+								</p>
+							</div>
+
+							<div class="weather__temp">
+								<p class="">-7°</p>
+							</div>
+
+							<div class="weather__other-info">
+								<p class="">Облачно</p>
+								<p class="">Ощущается как -11°</p>
+							</div>
+
+						</div>
+
+						<div class="weather__more-details">
+							<ul class="weather__list">
+								<li class="weather__item">
+									<article class="weather__card">
+										
+									</article>
+								</li>
+								<li class="weather__item">
+									<article class="weather__card">
+
+									</article>
+								</li>
+								<li class="weather__item">
+									<article class="weather__card">
+
+									</article>
+								</li>
+								<li class="weather__item">
+									<article class="weather__card">
+
+									</article>
+								</li>
+								<li class="weather__item">
+									<article class="weather__card">
+
+									</article>
+								</li>
+								<li class="weather__item">
+									<article class="weather__card">
+
+									</article>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+
+	<script src="./script.js"></script>
+</body>
+</html>
