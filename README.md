@@ -1,3 +1,3 @@
 # WeatherApp
 
-### Работа взята из онлайн окселератора - [PREAX](https://preax.ru/sprints)
+### Работа взята из онлайн акселератора - [PREAX](https://preax.ru/sprints)
